@@ -16,3 +16,7 @@ Publisher dan subscriber perlu terhubung ke broker yang sama agar dapat menerima
 
 ## Running RabbitMQ as message broker
 ![Running RabbitMQ as message broker](assets/images/Running%20RabbitMQ%20as%20message%20broker.jpg)
+
+## Sending and processing event
+![Sending and processing event](assets/images/Sending%20and%20processing%20event.jpg)
+Ketika RabbitMQ sedang berjalan, dan kita menjalankan cargo run pada publisher dan subscriber, maka publisher akan mengirimkan 5 event data ke message broker yang nantinya akan diterima oleh subscriber
