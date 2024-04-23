@@ -20,3 +20,7 @@ Publisher dan subscriber perlu terhubung ke broker yang sama agar dapat menerima
 ## Sending and processing event
 ![Sending and processing event](assets/images/Sending%20and%20processing%20event.jpg)
 Ketika RabbitMQ sedang berjalan, dan kita menjalankan cargo run pada publisher dan subscriber, maka publisher akan mengirimkan 5 event data ke message broker yang nantinya akan diterima oleh subscriber
+
+## Monitoring chart based on publisher
+![Monitoring chart based on publisher](assets/images/Monitoring%20chart%20based%20on%20publisher.jpg)
+Jika cargo run dijalankan beberapa kali dalam satu detik dan hanya sekali dalam satu detik, kita dapat melihat perbedaan dalam message rates. Ini menunjukkan bahwa message rates meningkat ketika message broker menerima data dari publisher, dan seberapa cepat message rates tersebut dipengaruhi oleh jumlah data yang diterima message broker dari publisher dalam satu detik
