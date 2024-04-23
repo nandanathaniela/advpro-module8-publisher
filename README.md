@@ -13,3 +13,6 @@ URL `amqp://guest:guest@localhost:5672` digunakan untuk menghubungkan ke broker 
 4. `5672` adalah nomor port default tempat broker AMQP menerima koneksi
 
 Publisher dan subscriber perlu terhubung ke broker yang sama agar dapat menerima dan mengirim pesan, sehingga mereka menggunakan string koneksi yang sama
+
+## Running RabbitMQ as message broker
+![Running RabbitMQ as message broker](assets/images/Running%20RabbitMQ%20as%20message%20broker.jpg)
